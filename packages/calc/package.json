@@ -1,0 +1,21 @@
+{
+  "name": "@sample/calc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "exports": {
+    ".": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "fmt": "biome format --write src",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/strictest": "^2.0.2"
+  }
+}
